@@ -70,7 +70,7 @@ new TWTR.Widget({
     },
     tweets: {
       background: '#000000',
-      color: '#ffffff',
+      color: '#ff0000',
       links: '#bfbfbf'
     }
   },
