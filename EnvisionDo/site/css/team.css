@@ -1,0 +1,492 @@
+/* @override http://localhost/stylesheets/team.css */
+
+/* @override 
+	http://localhost/faq/faq.css
+	http://localhost/team/team.css
+*/
+h2.name {
+	margin: 0;
+	margin-top: 30px;
+	margin-left: 16px;	
+	clear: both;
+}
+
+h3.title {
+	font-weight: normal;
+	padding: 0;
+	margin: 0;
+	margin-left: 16px;
+	padding-bottom: 20px;
+	clear: both;
+	border-bottom: 1px solid #8c8987;
+}
+
+.coda-slider-wrapper {
+	padding: 14px 0
+}
+
+/* Use this to keep the slider content contained in a box even when JavaScript is disabled */
+
+.coda-slider-no-js .coda-slider {
+	height: 418px;
+	overflow: auto !important;
+}
+
+.coda-slider-wrapper.arrows .coda-slider, .coda-slider-wrapper.arrows .coda-slider .panel {
+	margin: 0 20px;	
+}
+
+#coda-slider-1.coda-slider {
+	width: 554px;
+	
+}
+
+/* Arrow styling */
+
+.coda-nav-left a, .coda-nav-right a {
+	color: #fff;
+	padding: 5px;
+	width: 100px
+}
+
+/* Tab nav */
+
+.coda-nav ul li a.current {
+	background: #39c
+}
+
+/* Panel padding */
+
+.coda-slider .panel-wrapper {
+	width: 514px;
+}
+
+.faqs {
+	position: absolute;
+	background: url(/images/team-team-bg.png);
+	height: 418px;
+	width: 594px;
+	display: none;
+}
+
+.panel-wrapper p {
+	color: #fff;
+	font-family: "Lucida Grande", Lucida, Verdana, sans-serif;
+	margin-left: 215px;
+	line-height: 14pt;
+	font-size: 12px;
+}
+
+
+
+/* Preloader */
+
+.coda-slider p.loading {
+	padding: 20px;
+	text-align: center
+}
+
+/* Don't change anything below here unless you know what you're doing */
+
+/* Tabbed nav */
+
+.coda-nav ul {
+	clear: both;
+	display: block;
+	margin: auto;
+	overflow: hidden
+}
+
+.coda-nav ul li {
+	display: inline
+}
+
+.coda-nav ul li a {
+	background: #000;
+	color: #fff;
+	display: block;
+	float: left;
+	margin-right: 1px;
+	padding: 3px 6px;
+	text-decoration: none
+}
+
+/* Miscellaneous */
+
+.coda-slider-wrapper {
+	clear: both;
+	overflow: auto
+}
+
+.coda-slider {
+	float: left;
+	overflow: hidden;
+	position: relative
+}
+
+.coda-slider .panel {
+	display: block;
+	float: left;
+}
+
+.coda-slider .panel-container {
+	position: relative;
+}
+
+.coda-nav-left, .coda-nav-right {
+	float: left
+}
+
+.coda-nav-left a, .coda-nav-right a {
+	display: block;
+	text-align: center;
+	text-decoration: none
+}
+
+.close {
+	position: absolute;
+	top: 8px;
+	margin-left: 500px;
+	background: url(/images/team-team-close.png) no-repeat;
+	cursor: pointer;
+	display: block;
+	overflow: hidden;
+	height: 0;
+	padding-top: 26px;
+	width: 26px;	
+}
+
+#coda-nav-left-1 a {
+	cursor: pointer;
+	position: absolute;
+	overflow: hidden;
+	display: block;
+	margin-top: 347px;
+	margin-left: 28px;
+    height: 0;
+    width: 78px;
+    padding-top: 24px;
+    z-index: 10000;
+    background: url(/images/team-team-prev.png) no-repeat;	
+}
+
+#coda-nav-right-1 a {
+	cursor: pointer;
+	position: absolute;
+	overflow: hidden;
+	display: block;
+	margin-top: 347px;
+	margin-left: 508px;
+    height: 0;
+    width: 59px;
+    padding-top: 24px;
+    z-index: 10000;
+    background: url(/images/team-team-next.png) no-repeat;	
+}
+
+#background {
+	background: url(/images/team-team-next.png) repeat-y center center;
+	display: block;
+	height: 100px;
+	width: 100px;
+	
+}
+
+#coda-nav-1 ul {
+	width: 600px;
+
+	list-style-type: none;
+}
+
+.grid-lock {
+    width: 594px;
+    height: 418px;
+    margin: 0 auto;
+}
+
+.grid {
+	position: absolute;
+	margin-left: 6px;
+	margin-top: -1px;
+	width: 590px;
+	height: 418px;
+}
+
+
+.tab1, .tab2, .tab3, .tab4, .tab5, .tab6, .tab7, .tab8, .tab9 {
+	cursor: pointer;
+	float: left;
+	margin-top: 16px;
+	margin-left: 15px;
+	height: 115px;
+	width: 174px;
+	position: relative;
+}
+
+.tab1 a, .tab2 a, .tab3 a, .tab4 a, .tab5 a, .tab6 a, .tab7 a,  .tab8 a, .tab9 a {
+	color: #fff;
+	display: table;
+	text-decoration: none;
+	font-size: 14px;
+	text-align: center;
+	background: #181416 no-repeat;
+	height: 115px;
+	width: 174px;
+	position: absolute;
+	font-family: "Lucida Grande", Lucida, Verdana, sans-serif;
+	z-index: 0;
+	outline: none;
+}
+
+.tab1 a, .tab3 a, .tab5 a, .tab7 a, .tab9 a {
+	
+	background: #181416;
+}
+
+.tab1 a:hover, .tab3 a:hover, .tab5 a:hover, .tab7 a:hover, .tab9 a:hover, .tab2 a:hover, .tab4 a:hover, .tab6 a:hover, .tab8 a:hover {
+}
+
+.faq {
+	opacity: 0.0;
+	display: table-cell;
+	vertical-align:bottom;
+	text-align: center;
+	padding: 10px;
+}
+
+.faq:hover {
+	opacity: 1.0;
+	background: rgba(244,244,244,0.1);
+	font-weight: bold;
+	text-shadow: rgba(0,0,0,0.5) 0 3px 3px;
+}
+
+#coda-slider-1 .panel-wrapper a {
+	color: #fff;
+	text-decoration: none;
+	border-bottom: 1px solid rgba(255,255,255,0.5);
+}
+#coda-slider-1 .panel-wrapper a:hover {
+	border-bottom: 1px solid #fff;
+}
+
+
+.faq:active {
+	opacity: 1.0;
+	background: rgba(0,0,0,0.1);
+}
+
+.bio {
+	clear: both;
+	display: block;
+	height: 0;
+	width: 175px;
+	position: relative;
+	background-position: 0px 0px;
+	left: 9px;
+	margin: 8px;
+	margin-top: 35px;
+	float: left;
+	padding-top: 200px;
+	overflow: hidden;
+}
+
+a#marshall, #marshall .bio {
+	background-image: url(/images/team-marshall.jpg);
+	background-repeat: no-repeat;	
+	background-position: 0 -20px;
+}
+
+a#markaj, #markaj .bio {
+	background-image: url(/images/team-markaj.jpg);
+	background-repeat: no-repeat;
+	background-position: 0 -14px;	
+}
+
+a#gordon, #gordon .bio {
+	background-image: url(/images/team-gordon.jpg);
+	background-repeat: no-repeat;
+	background-position: 0 -14px;
+}
+
+a#lau, #lau .bio {
+	background-image: url(/images/team-lau.jpg);
+	background-repeat: no-repeat;
+	background-position: 0 -20px;	
+}
+
+a#newsom, #newsom .bio {
+	background-image: url(/images/team-newsom.jpg);
+	background-repeat: no-repeat;
+	background-position: 0 -33px;
+	
+}
+
+a#stanton, #stanton .bio {
+	background-image: url(/images/team-stanton.jpg);
+	background-repeat: no-repeat;
+	background-position: 0 -23px;	
+}
+
+a#sutta, #sutta .bio {
+	background-image: url(/images/team-sutta.jpg);
+	background-repeat: no-repeat;
+	background-position: 0 -23px;	
+}
+
+a#carlin, #carlin .bio {
+	background-image: url(/images/team-carlin.jpg);
+	background-repeat: no-repeat;
+	background-position: 0 -14px;	
+}
+
+a#kruszka, #kruszka .bio {
+	background-image: url(/images/team-kruszka.jpg);
+	background-repeat: no-repeat;
+	background-position: 0 -23px;	
+}
+
+#marshall .bio, #markaj .bio, #gordon .bio, #lau .bio, #newsom .bio, #stanton .bio, #sutta .bio, #carlin .bio, #kruszka .bio {
+	background-position: 0 0;
+}
+
+.panel h3.title {
+	color: #aeaca9;
+	font-weight: normal;
+	font-size: 12.5pt;
+	margin-top: 5px;
+	padding-bottom: 0;
+}
+
+#marshall h3.title {
+	background: url(/images/team-marshall-title.png) no-repeat;
+	height: 0;
+	padding-top: 25px;
+	overflow: hidden;
+}
+
+#gordon h3.title {
+	background: url(/images/team-gordon-title.png) no-repeat;
+	height: 0;
+	padding-top: 25px;
+	overflow: hidden;
+}
+
+#lau h3.title {
+	background: url(/images/team-lau-title.png) no-repeat;
+	height: 0;
+	padding-top: 25px;
+	overflow: hidden;
+}
+
+#newsom h3.title {
+	background: url(/images/team-newsom-title.png) no-repeat;
+	height: 0;
+	padding-top: 25px;
+	overflow: hidden;
+}
+
+#sutta h3.title {
+	background: url(/images/team-sutta-title.png) no-repeat;
+	height: 0;
+	padding-top: 25px;
+	overflow: hidden;
+}
+
+
+#markaj h3.title {
+	background: url(/images/team-markaj-title.png) no-repeat;
+	height: 0;
+	padding-top: 25px;
+	overflow: hidden;
+}
+
+#stanton h3.title {
+	background: url(/images/team-stanton-title.png) no-repeat;
+	height: 0;
+	padding-top: 25px;
+	overflow: hidden;
+}
+#carlin h3.title {
+	background: url(/images/team-carlin-title.png) no-repeat;
+	height: 0;
+	padding-top: 25px;
+	overflow: hidden;
+}
+
+#kruszka h3.title {
+	background: url(/images/team-kruszka-title.png) no-repeat;
+	height: 0;
+	padding-top: 25px;
+	overflow: hidden;
+}
+
+.panel h2.name {
+	background: url(/images/team-panel-title.png) no-repeat;
+	height: 0;
+	padding-top: 19px;
+	overflow: hidden;	
+}
+
+#marshall h2.name {
+	background: url(/images/team-marshall.png) no-repeat;
+	height: 0;
+	padding-top: 19px;
+	overflow: hidden;	
+}
+
+#markaj h2.name {
+	background: url(/images/team-markaj.png) no-repeat;
+	height: 0;
+	padding-top: 24px;
+	overflow: hidden;
+}
+
+#gordon h2.name {
+	background: url(/images/team-gordon.png) no-repeat;
+	height: 0;
+	padding-top: 19px;
+	overflow: hidden;	
+}
+
+#lau h2.name {
+	background: url(/images/team-lau.png) no-repeat;
+	height: 0;
+	padding-top: 19px;
+	overflow: hidden;	
+}
+
+#newsom h2.name {
+	background: url(/images/team-newsom.png) no-repeat;
+	height: 0;
+	padding-top: 19px;
+	overflow: hidden;	
+}
+
+#stanton h2.name {
+	background: url(/images/team-stanton.png) no-repeat;
+	height: 0;
+	padding-top: 25px;
+	overflow: hidden;
+}
+
+#sutta h2.name {
+	background: url(/images/team-sutta.png) no-repeat;
+	height: 0;
+	padding-top: 19px;
+	overflow: hidden;	
+}
+
+#carlin h2.name {
+	background: url(/images/team-carlin.png) no-repeat;
+	height: 0;
+	padding-top: 19px;
+	overflow: hidden;	
+}
+
+#kruszka h2.name {
+	background: url(/images/team-kruszka.png) no-repeat;
+	height: 0;
+	padding-top: 19px;
+	overflow: hidden;	
+}
